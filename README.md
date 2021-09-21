@@ -31,12 +31,17 @@ This repository contains schematics and PCB of a microphone preamp with switchab
 |R9             |1       |1k              |                               |
 |U1             |1       |INA217          |DIP-8 package                  |
 |U2             |1       |TL071           |                               |
+|               |1       |XLR socket      |Microphone input socket        |
+|               |1       |Output jack     |                               |
+|               |1       |10k pot         |                               |
+|               |1       |Switch SPDT     |ON-ON                          |
+|               |1       |LED             |                               |
 
-\* change value according to phantom power in, 10k is for 48V
+\* LED current limiting resistor, change value according to used phantom power, 10k is for 48V
 
 \** use bipolar caps
 
-\*** adjust to change max gain
+\*** adjust to change max. gain, smaller is more gain
 
 ## Reference
 
